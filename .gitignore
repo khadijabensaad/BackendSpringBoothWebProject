@@ -1,0 +1,21 @@
+@"
+# Maven
+target/
+*.class
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.eclipse/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+*.properties.local
+"@ | Set-Content .gitignore
